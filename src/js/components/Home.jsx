@@ -13,7 +13,7 @@ const Home = () => {
 		console.log(color);
 	};
 	return (
-		<div className="semaforo">
+		<div className="semaforo mx-auto">
 			<div className={`rojo ${color === "rojo" ? "encendido" : ""}`}
 			onClick={() => lightOn("rojo")}
 			 ></div>
